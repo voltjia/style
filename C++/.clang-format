@@ -2,7 +2,6 @@
 Language: Cpp
 AccessModifierOffset: -4
 AlignAfterOpenBracket: AlwaysBreak
-AlignArrayOfStructures: false
 AlignConsecutiveAssignments: false
 AlignConsecutiveBitFields: false
 AlignConsecutiveDeclarations: false
@@ -43,14 +42,8 @@ Cpp11BracedListStyle: true
 DeriveLineEnding: true
 DerivePointerAlignment: true
 DisableFormat: false
-EmptyLineAfterAccessModifier: Never
-EmptyLineBeforeAccessModifier: Always
 ExperimentalAutoDetectBinPacking: false
 FixNamespaceComments: false
-ForEachMacros:
-  - foreach
-  - Q_FOREACH
-  - BOOST_FOREACH
 IncludeBlocks: Preserve
 IncludeCategories:
   - Regex:           '^"(llvm|llvm-c|clang|clang-c)/'
@@ -64,7 +57,6 @@ IncludeCategories:
   - Regex:           '.*'
     Priority:        1
     SortPriority:    0
-IndentAccessModifiers: false
 IndentCaseBlocks: false
 IndentCaseLabels: false
 IndentExternBlock: AfterExternBlock
@@ -75,12 +67,10 @@ IndentWidth: 4
 IndentWrappedFunctionNames: false
 InsertTrailingCommas: None
 KeepEmptyLinesAtTheStartOfBlocks: false
-LambdaBodyIndentation: Signature
 MacroBlockBegin: ''
 MacroBlockEnd: ''
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: None
-PackConstructorInitializers: NextLine
 PenaltyBreakAssignment: 2
 PenaltyBreakBeforeFirstCallParameter: 19
 PenaltyBreakComment: 300
@@ -91,21 +81,6 @@ PenaltyExcessCharacter: 1000000
 PenaltyReturnTypeOnItsOwnLine: 60
 PenaltyIndentedWhitespace: 0
 PointerAlignment: Left
-RawStringFormats:
-  - Language: TextProto
-      Delimiters:
-        - 'pb'
-        - 'proto'
-      EnclosingFunctions:
-        - 'PARSE_TEXT_PROTO'
-      BasedOnStyle: google
-  - Language: Cpp
-      Delimiters:
-        - 'cc'
-        - 'cpp'
-      BasedOnStyle: llvm
-      CanonicalDelimiter: 'cc'
-ReferenceAlignment: Left
 ReflowComments: true
 SortIncludes: true
 SortUsingDeclarations: true
@@ -129,9 +104,6 @@ SpacesInContainerLiterals: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 Standard: Auto
-StatementMacros:
-  - Q_UNUSED
-  - QT_REQUIRE_VERSION
 TabWidth: 8
 UseCRLF: false
 UseTab: Never
