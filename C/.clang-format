@@ -27,7 +27,7 @@ BreakBeforeTernaryOperators: true
 BreakStringLiterals: false
 ColumnLimit: 80
 CompactNamespaces: false
-ContinuationIndentWidth: 4
+ContinuationIndentWidth: 8
 DeriveLineEnding: true
 DerivePointerAlignment: true
 DisableFormat: false
