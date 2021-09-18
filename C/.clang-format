@@ -1,5 +1,5 @@
 ---
-AlignAfterOpenBracket: AlwaysBreak
+AlignAfterOpenBracket: true
 AlignConsecutiveAssignments: false
 AlignConsecutiveBitFields: false
 AlignConsecutiveDeclarations: false
