@@ -28,6 +28,7 @@ BreakStringLiterals: false
 ColumnLimit: 80
 CompactNamespaces: false
 ContinuationIndentWidth: 8
+Cpp11BracedListStyle: false
 DeriveLineEnding: true
 DerivePointerAlignment: true
 DisableFormat: false
