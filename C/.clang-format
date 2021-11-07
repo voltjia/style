@@ -5,7 +5,7 @@ AlignConsecutiveAssignments: None
 AlignConsecutiveBitFields: None
 AlignConsecutiveDeclarations: None
 AlignConsecutiveMacros: None
-AlignEscapedNewlines: DontAlign
+AlignEscapedNewlines: Left
 AlignOperands: Align
 AlignTrailingComments: false
 AllowAllArgumentsOnNextLine: false
@@ -91,15 +91,15 @@ NamespaceIndentation: None
 # ObjCSpaceBeforeProtocolList:
 # clang-format 14 PPIndentWidth: -1
 # clang-format 14 PackConstructorInitializers: Never
-PenaltyBreakAssignment: 1
-PenaltyBreakBeforeFirstCallParameter: 10
-PenaltyBreakComment: 100
+PenaltyBreakAssignment: 10
+PenaltyBreakBeforeFirstCallParameter: 100
+PenaltyBreakComment: 1000
 PenaltyBreakFirstLessLess: 0
-PenaltyBreakString: 1000
+PenaltyBreakString: 10000
 PenaltyBreakTemplateDeclaration: 0
 PenaltyExcessCharacter: 1000000
-PenaltyIndentedWhitespace: 100000
-PenaltyReturnTypeOnItsOwnLine: 10000
+PenaltyIndentedWhitespace: 0
+PenaltyReturnTypeOnItsOwnLine: 100000
 PointerAlignment: Right
 # clang-format 14 QualifierAlignment: Leave
 # clang-format 14 QualifierOrder:
