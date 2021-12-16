@@ -30,8 +30,8 @@ BreakBeforeBinaryOperators: All
 BreakBeforeBraces: Linux
 BreakBeforeConceptDeclarations: true
 BreakBeforeTernaryOperators: true
-BreakConstructorInitializers: AfterColon
-BreakInheritanceList: AfterColon
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon
 BreakStringLiterals: false
 ColumnLimit: 80
 # CommentPragmas:
