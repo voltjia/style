@@ -14,7 +14,7 @@ File names should be all lower-case with underscore '_' as the word separator.
 
 ### Namespace Names
 
-Namespace names should be all lower-case with underscore '_' as the word separator.
+A namespace name should be the same as the name of the root directory of the project to which it belongs.
 
 ### Type Names
 
@@ -28,28 +28,28 @@ class CamelCase {
 
 ### Variable Names
 
-Variable names should be in lower camel case. Constants and enumerators follow the same rule.
+Variable names should be in snake case. Constants and enumerators follow the same rule.
 
 ```C++
-int camelCase {0};
+int snake_case {0};
 ```
 
 ### Function Names
 
-Function names should be in lower camel case.
+Function names should be in snake case.
 
 ```C++
-void camelCase() {
+void snake_case() {
     ...
 }
 ```
 
 ### Macro Names
 
-Macro names should be all upper-case with underscores '_'  as the word separator.
+Macro names should be all uppercase with underscores '_'  as the word separator.
 
 ```C++
-#define UPPER_CASE_WITH_UNDERSCORES true
+#define UPPERCASE_WITH_UNDERSCORES true
 ```
 
 ## Formatting
@@ -68,10 +68,10 @@ Use K&R derived style 1TBS. Functions should have their opening braces on the sa
 
 ```C++
 void obts() {
-    if (!hasOnlyOneStatement()) {
-        hasBraces();
+    if (!has_only_one_statement()) {
+        has_braces();
     } else {
-        alsoHasBraces();
+        also_has_braces();
     }
 }
 ```
@@ -79,6 +79,7 @@ void obts() {
 ## References
 
 * [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+* [Clang-Format Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [Indentation Style](https://en.wikipedia.org/wiki/Indentation_style)
-* [Clang-Format Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
+* [LLVM Coding Standards](https://llvm.org/docs/CodingStandards.html#llvm-coding-standards)
