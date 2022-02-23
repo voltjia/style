@@ -1,11 +1,11 @@
 AccessModifierOffset: -8
 AlignAfterOpenBracket: Align
-AlignArrayOfStructures: Right
+AlignArrayOfStructures: None
 AlignConsecutiveAssignments: None
 AlignConsecutiveBitFields: None
 AlignConsecutiveDeclarations: None
 AlignConsecutiveMacros: None
-AlignEscapedNewlines: Left
+AlignEscapedNewlines: DontAlign
 AlignOperands: Align
 AlignTrailingComments: false
 AllowAllArgumentsOnNextLine: false
