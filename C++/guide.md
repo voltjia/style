@@ -1,6 +1,6 @@
 # C++ Style Guide
 
-The point of this document is not to join the holy war of coding styles, but simply provides one of the many possibilities, so that if you have the same taste, you may simply follow this guide instead of writing one.
+The point of this document is not to join the holy war of coding styles, but simply to provide one of the many possibilities, so that if you have the same taste, you may simply follow this guide instead of writing one.
 
 ## General Rules
 
@@ -14,7 +14,7 @@ File names should be all lower-case with underscore '_' as the word separator.
 
 ### Namespace Names
 
-A namespace name should be the same as the name of the root directory of the project to which it belongs.
+A namespace name should be in upper camel case, usually the same as the name of the project or module to which it belongs.
 
 ### Type Names
 
@@ -28,18 +28,18 @@ class CamelCase {
 
 ### Variable Names
 
-Variable names should be in snake case. Constants and enumerators follow the same rule.
+Variable names should be in lower camel case. Constants and enumerators follow the same rule.
 
 ```C++
-int snake_case {0};
+int camelCase {0};
 ```
 
 ### Function Names
 
-Function names should be in snake case.
+Function names should be in lower camel case.
 
 ```C++
-void snake_case() {
+void camelCase() {
     ...
 }
 ```
