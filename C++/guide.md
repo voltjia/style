@@ -68,10 +68,10 @@ Use K&R derived style 1TBS. Functions should have their opening braces on the sa
 
 ```C++
 void obts() {
-    if (!has_only_one_statement()) {
-        has_braces();
+    if (!hasOnlyOneStatement()) {
+        hasBraces();
     } else {
-        also_has_braces();
+        alsoHasBraces();
     }
 }
 ```
