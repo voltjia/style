@@ -37,17 +37,17 @@ ColumnLimit: 80
 # CommentPragmas:
 CompactNamespaces: false
 ConstructorInitializerIndentWidth: 4
-ContinuationIndentWidth: 4
+ContinuationIndentWidth: 8
 Cpp11BracedListStyle: true
 DeriveLineEnding: false
 DerivePointerAlignment: false
 DisableFormat: false
-# clang-format 14 EmptyLineAfterAccessModifier: Never
+EmptyLineAfterAccessModifier: Never
 EmptyLineBeforeAccessModifier: Always
 ExperimentalAutoDetectBinPacking: false
 FixNamespaceComments: false
 # ForEachMacros:
-# clang-format 14 IfMacros:
+# IfMacros:
 IncludeBlocks: Preserve
 IncludeCategories:
   - Regex:           '^"(llvm|llvm-c|clang|clang-c)/'
@@ -89,8 +89,8 @@ NamespaceIndentation: None
 # ObjCBreakBeforeNestedBlockParam:
 # ObjCSpaceAfterProperty:
 # ObjCSpaceBeforeProtocolList:
-# clang-format 14 PPIndentWidth: -1
-# clang-format 14 PackConstructorInitializers: Never
+PPIndentWidth: -1
+PackConstructorInitializers: NextLine
 PenaltyBreakAssignment: 10
 PenaltyBreakBeforeFirstCallParameter: 100
 PenaltyBreakComment: 1000
@@ -101,12 +101,12 @@ PenaltyExcessCharacter: 1000000
 PenaltyIndentedWhitespace: 0
 PenaltyReturnTypeOnItsOwnLine: 100000
 PointerAlignment: Left
-# clang-format 14 QualifierAlignment: Leave
-# clang-format 14 QualifierOrder:
+QualifierAlignment: Leave
+# QualifierOrder:
 # RawStringFormats:
-# clang-format 14 ReferenceAlignment: Pointer
+ReferenceAlignment: Pointer
 ReflowComments: false
-# clang-format 14 ShortNamespaceLines: 1
+ShortNamespaceLines: 1
 SortIncludes: CaseSensitive
 # SortJavaStaticImport:
 SortUsingDeclarations: true
@@ -125,11 +125,11 @@ SpaceBeforeSquareBrackets: false
 SpaceInEmptyBlock: false
 SpaceInEmptyParentheses: false
 SpacesBeforeTrailingComments: 1
-# clang-format 14 SpacesInAngles: Never
+SpacesInAngles: Never
 SpacesInCStyleCastParentheses: false
 SpacesInConditionalStatement: false
 SpacesInContainerLiterals: false
-# clang-format 14 SpacesInLineCommentPrefix:
+# SpacesInLineCommentPrefix:
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 Standard: Auto
